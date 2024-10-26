@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Registrar usuario</h1>
+    <form id="formulario-registro" onsubmit="manejarRegistro(event)">
+        <label>Nombre de usario: <input type="text" id="usuario-registro" required></label><br><br>
+        <label>Contraseña: <input type="password" id="contraseña-registro" required min="8"></label><br><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+
+    <p id="mensaje-registro"></p>
+
+    <p id="inicio-de-sesion"><a href="inicio.html">Iniciar sesión</a></p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+h1{
+    color: #f27413;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+}
+
+body{
+    background-color: rgb(55, 124, 81);
+}
+
+div {
+    color: #f27413;
+    font-size: larger;
+}
+
+h4 {
+    color: aqua;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+#registro-de-usuario, #inicio-de-sesion{
+    background-color: beige;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
